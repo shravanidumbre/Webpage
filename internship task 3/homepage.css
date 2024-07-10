@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100%;
+    background-image: url("img2.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+nav {
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+    font-family:cursive;
+}
+nav .logo {
+    width: 100%;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 9px;
+    text-shadow: 2px 1px 5px black;
+    margin-bottom: 4%;
+}
+nav .dropbtn{
+    height: 50px;
+    width: 95%;
+    position: relative;
+    color: black;
+    text-align: right;
+    line-height: 15px;
+    font-size:x-large;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.dropbtn:hover{
+    color: #fff;
+}
+nav .menus{
+    margin-top: 9px;
+    height: 19vh;
+    width: 17%;
+    background-color:#fff;
+    position: absolute;
+    right: 0;
+    display: none;
+}
+.menus a{
+    color: black;
+    display: block;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 12px;
+    font-size: large;
+    text-decoration: none;
+    text-transform:none;
+    font-family:"cursive";
+}
+.menus a:hover{
+    background-color:dodgerblue;
+    color: white;
+}
+.dropbtn:hover .menus{
+    display: block;
+}
+main {
+    width: 100%;
+    height: 80vh;
+    margin-top: 13%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+section h3{
+    text-align: center;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    font-size: 45px;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px black;
+    font-family: "dongle-bold";
+}
+section p{
+    margin-left: 5%;
+    margin-top: 4px;
+    margin-bottom: 3%;
+    font-size: x-large;
+    font-weight: 250;
+    text-shadow: 1px 1px 2px black;
+    font-family: "dongle-bold";
+}
+section a{
+    margin-bottom: 15%;
+    margin-left: 6%;
+    padding: 25px 40px;
+    border-radius: 5px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+section .btn{
+    background-color:dodgerblue;
+    color: #fff;
+    border-radius: 50px;
+    font-family: "dongle-bold";
+    transition: 0.3s;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.btn:hover{
+    color:black;
+}
